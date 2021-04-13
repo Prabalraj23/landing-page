@@ -1,0 +1,43 @@
+.landing-image{
+    max-width:100% !important;
+    object-fit: contain;
+    height:120vh;
+    background-color: black;
+   
+}
+/* .card{
+  max-height:120vh;
+  overflow: hidden;
+} */
+h4{
+    padding:0%;
+    margin:0%;
+}
+p{
+    padding:0%;
+    margin:0%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:orange;
+  }
+  
+  .centered-button{
+    position: absolute;
+    top: 90%;
+    right:43%;
+    border:none;
+  }
+  .centered-button:hover{
+    font-size: larger;
+  }
